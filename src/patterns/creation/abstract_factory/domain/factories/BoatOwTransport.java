@@ -7,7 +7,7 @@ import patterns.creation.abstract_factory.domain.landvehicles.ILandVehicle;
 import patterns.creation.abstract_factory.domain.marinecraft.Boat;
 import patterns.creation.abstract_factory.domain.marinecraft.IMarineCraft;
 
-public class UberTransport implements ITransportFactory {
+public class BoatOwTransport implements ITransportFactory {
 
     @Override
     public ILandVehicle createTransportVehicle() {
