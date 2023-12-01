@@ -25,6 +25,13 @@ public class Motorcycle implements IVehicles,IVehicleMotorcycle {
 
     @Override
     public void startVehicles() {
-
+        System.out.println("beeeeeeeeeeeeeeeeeeee");
     }
+
+    @Override
+    public String toString() {
+        return "Motorcycle [color=" + color + ", year=" + year + ", engine=" + engine + ", seats=" + seats + "]";
+    }
+
+    
 }
