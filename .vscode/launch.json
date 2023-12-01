@@ -8,6 +8,13 @@
       "type": "java",
       "name": "Main",
       "request": "launch",
+      "mainClass": "patterns.comportamental.chain_of_responsability.Main",
+      "projectName": "kosmos_with_mongodb_138f6e3a"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
       "mainClass": "solid.interface_segregation.Main",
       "projectName": "desing_patterns_hcode_bc41285b"
     },
@@ -17,7 +24,11 @@
       "request": "launch",
       "mainClass": "patterns.creation.abstract_factory.Main",
       "projectName": "desing_patterns_hcode_bc41285b",
-      "args": ["boat", "99", "uber"]
+      "args": [
+        "boat",
+        "99",
+        "uber"
+      ]
     }
   ]
 }
