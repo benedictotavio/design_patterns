@@ -3,7 +3,6 @@ package solid.dependency_inversion.payment;
 import solid.dependency_inversion.enums.DatabaseType;
 import solid.dependency_inversion.factory.DbProductFactory;
 import solid.dependency_inversion.model.IDbProduct;
-import solid.dependency_inversion.model.MySQL;
 
 public class Payment {
     public void pay(String productID){

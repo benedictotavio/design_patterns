@@ -4,7 +4,7 @@ public class Car implements IVehicles,IVehicleCar{
     private String color;
     private String year;
     private double engine;
-    private int seats;
+    private int seats = 4;
 
 
     public Car(String color, String year, int engine, int seats) {
@@ -28,4 +28,11 @@ public class Car implements IVehicles,IVehicleCar{
     public void startVehicles() {
         System.out.println("bruuuuuuuuummmmmmm");
     }
+
+    @Override
+    public String toString() {
+        return "Car [color=" + color + ", year=" + year + ", engine=" + engine + ", seats=" + seats + "]";
+    }
+
+    
 }
