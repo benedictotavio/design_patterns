@@ -1,0 +1,37 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "patterns.creation.abstract_factory.Main",
+            "projectName": "desing_patterns_hcode_bc41285b"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "patterns.creation.factory.Main",
+            "projectName": "desing_patterns_hcode_bc41285b",
+            "args": "eats"
+        },
+        {
+            "type": "java",
+            "name": "Main(1)",
+            "request": "launch",
+            "mainClass": "solid.open_closed.Main",
+            "projectName": "desing_patterns_hcode_bc41285b"
+        },
+        {
+            "type": "java",
+            "name": "Main(2)",
+            "request": "launch",
+            "mainClass": "solid.single_responsability.Main",
+            "projectName": "desing_patterns_hcode_bc41285b"
+        }
+    ]
+}
